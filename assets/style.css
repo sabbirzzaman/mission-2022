@@ -1,4 +1,8 @@
 /* Base CSS */
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -24,6 +28,7 @@ p {
 h1 {
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
+    line-height: 50px;
     color: #13103A;
     margin-bottom: 15px;
 }
@@ -80,17 +85,12 @@ img {
 
 .flex {
     display: flex;
-    gap: 100px;
+    gap: 75px;
     align-items: center;
 }
 
 .highlight {
     color: #0287f6;
-}
-
-input,
-textarea {
-    display: block;
 }
 
 input:focus,
@@ -134,6 +134,7 @@ textarea:focus {
 }
 
 .mission-item {
+    width: 33%;
     padding: 20px 30px;
     border-radius: 26px;
 }
@@ -143,15 +144,15 @@ textarea:focus {
 }
 
 .item-1 {
-    background-color: rgb(255, 87, 87, .1);
+    background-color: rgba(252, 143, 143, 0.1);
 }
 
 .item-2 {
-    background-color: hsla(186, 36%, 48%, 0.1);
+    background-color: rgba(78, 158, 166, 0.15);
 }
 
 .item-3 {
-    background-color: rgb(165, 212, 238, .6);
+    background-color: rgba(165, 212, 238, 0.6);
 }
 
 /* About Us CSS */
@@ -214,6 +215,7 @@ textarea:focus {
 input[type="text"],
 input[type="email"],textarea {
     background-color: rgb(246 246 246 / 70%);
+    display: block;
     width: 95%;
     border: 1px solid #d4d4d4;
     padding: 8px 10px;
