@@ -1,0 +1,260 @@
+/* Base CSS */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Layout */
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+/* Font and Typo */
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+}
+
+h1 {
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    color: #13103A;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 70px;
+    color: #13103A;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 36px;
+    color: #13103A;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #13103A;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 18px;
+    color: #3E3E3E;
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+
+.small-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Global Item CSS */
+img {
+    width: 100%;
+}
+
+.button {
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #14b9fc;
+    color: #fff;
+    border-radius: 5px;
+    transition: .3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #0287f6;
+}
+
+.flex {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+
+.highlight {
+    color: #0287f6;
+}
+
+input,
+textarea {
+    display: block;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+/* Hero Area CSS */
+.hero-text {
+    width: 50%;
+}
+
+.hero-image {
+    width: 50%;
+}
+
+.hero-title {
+    padding-left: 10px;
+    border-left: 4px solid #14b9fc;
+
+}
+
+.hero-button {
+    margin-bottom: 20px;
+}
+
+/* Mission Area CSS */
+.mission-area {
+    background-image: url('../images/dots.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.mission-title {
+    text-align: center;
+}
+
+.mission {
+    display: flex;
+    gap: 15px;
+}
+
+.mission-item {
+    padding: 20px 30px;
+    border-radius: 26px;
+}
+
+.mission-item img {
+    width: 40%;
+}
+
+.item-1 {
+    background-color: rgb(255, 87, 87, .1);
+}
+
+.item-2 {
+    background-color: hsla(186, 36%, 48%, 0.1);
+}
+
+.item-3 {
+    background-color: rgb(165, 212, 238, .6);
+}
+
+/* About Us CSS */
+.about-us {
+    background-image: url('../images/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: 8% center;
+    background-size: 10%;
+}
+
+.about-image {
+    width: 35%;
+}
+
+.about-us-text {
+    width: 65%;
+}
+
+/* Our Story CSS */
+.our-story {
+    background-image: url('../images/shape-1.png');
+    background-repeat: no-repeat;
+    background-position: 90% top;
+    background-size: 10%;
+}
+
+.story-text {
+    width: 65%;
+}
+
+.story-image {
+    width: 35%;
+}
+
+/* Contact Us CSS */
+.contact-us {
+    background-color: rgba(79, 157, 166, .05);
+}
+
+.contact {
+    padding: 20px 0;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-form {
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 0 30px 0 rgb(0 0 0 / 10%);
+    padding: 40px;
+    border-radius: 26px;
+}
+
+.contact-info {
+    width: 50%;
+}
+
+input[type="text"],
+input[type="email"],textarea {
+    background-color: rgb(246 246 246 / 70%);
+    width: 95%;
+    border: 1px solid #d4d4d4;
+    padding: 8px 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+
+}
+
+textarea {
+    height: 100px;
+    margin-bottom: 15px;
+}
+
+input[type="button"] {
+    border: none;
+    cursor: pointer;
+}
+
+.info-item {
+    margin-bottom: 10px;
+}
+
+/* footer CSS */
+.footer {
+    padding: 50px 0;
+    background-color: #0B0D17;
+    text-align: center;
+}
+
+.footer-title {
+    font-family: 'Yeseva One', cursive;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-title span {
+    color: #14b9fc;
+}
+
+.copyright-text {
+    font-size: 14px;
+    color: #D9DBE1;
+    margin-bottom: 0;
+}
